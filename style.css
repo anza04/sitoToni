@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-x: hidden;
+}
+
+.foto{
+    width: 100vw;
+    height: 100vh;
+    background: url(./img/R.jpg);
+    background-size: cover;
+}
+
+.opaco{
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    opacity: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.titolo{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titolo h1{
+    color: #101010;
+    font-weight: bold;
+    font-size: 100px;
+    transition: all 0.3s ease;
+}
+
+.titolo h1:hover{
+    transform: scale(1.2);
+}
+
+.titolo p{
+    color: #101010;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.sfondo{
+    width: 100vw;
+    height: 200vh;
+    background: #101010;
+    position: absolute;
+    top: 200%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contenitore-foto{
+    width: 96vw;
+    height: 194vh;
+    position: absolute;
+    top: 200%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.row1, .row2{
+    height: 50%;
+    width: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.spazio1, .spazio2, .spazio3, .spazio4{
+    width: 49%;
+    height: 98%;
+}
+
+.spazio1{
+    background: url(./img/pexels-lalesh-aldarwish-170894.jpg);
+    background-size: cover;
+}
+
+.spazio2, .spazio3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.spazio4{
+    background: url(./img/pexels-lisa-fotios-2183445.jpg);
+    background-size: cover;
+}
+
+.sopra1{
+    width: 100%;
+    height: 49%;
+    background: url(./img/pexels-pixabay-220417.jpg);
+    background-size: cover;
+}
+
+.sotto1{
+    width: 100%;
+    height: 49%;
+    background: url(./img/pexels-matheus-bertelli-573294.jpg);
+    background-size: cover;
+}
+
+.sopra2{
+    width: 100%;
+    height: 49%;
+    background: url(./img/pexels-samad-ismayilov-764874.jpg);
+    background-size: cover;
+}
+
+.sotto2{
+    width: 100%;
+    height: 49%;
+    background: url(./img/pexels-tookapic-7816.jpg);
+    background-size: cover;
+}
+
